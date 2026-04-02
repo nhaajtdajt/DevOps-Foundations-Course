@@ -1,9 +1,3 @@
-  TODO-STEP 1: Define the Workflow Name
-  Uncomment the following line and replace <WORKFLOW_NAME> with a descriptive name. For example: Python CI/CD Pipeline
-  name: <WORKFLOW NAME>
-
-  TODO-STEP 2: Define the Trigger Events
-  Uncomment the following lines to trigger the workflow on push and pull request events
   on:
    push:
    pull_request:
@@ -60,4 +54,4 @@
       - name: Run tests
        run: pytest
 
-  Remember to remove the '#' to uncomment lines when filling in the placeholders
+  
