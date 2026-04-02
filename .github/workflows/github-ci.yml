@@ -39,4 +39,6 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run tests
+        # Bảo GitHub đi vào đúng chỗ để tìm file test_app.py
+        working-directory: "Week 1/GitHub Actions Practice"
         run: pytest test_app.py
